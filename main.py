@@ -9,4 +9,4 @@ cursor.execute("""
         SELECT ID_EMPENHO FROM DM_EMPENHO_DESP
         WHERE ID_EMPENHO = 999""")
 for table_id in cursor:
-    print("ID:", table_id)
+    print(f"ID: {table_id}")
